@@ -1,0 +1,10 @@
+[STANFORDTAGGER]
+jar_path =
+model_directory_path =
+
+[STANFORDCORENLPTAGGER]
+host = services.loadbalancer.api.questo.ai
+port = 9000
+
+[SENT2VEC]
+model_path =

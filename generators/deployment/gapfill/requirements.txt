@@ -1,0 +1,5 @@
+zmq
+nltk
+rake-nltk
+spacy
+pytest

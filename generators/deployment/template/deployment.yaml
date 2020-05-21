@@ -1,0 +1,23 @@
+---
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: template-deployment
+spec:
+  selector:
+    matchLabels:
+      app: qgen
+  replicas: 1 # tells deployment to run 1 pod matching the template
+  template:
+    metadata:
+      labels:
+        app: qgen
+    spec:
+      containers:
+      - name: template
+        image: gcr.io/questo2/template
+        ports:
+        - containerPort: 5556
+        resources:
+          limits:
+            nvidia.com/gpu: 1 # requesting 1 GPU

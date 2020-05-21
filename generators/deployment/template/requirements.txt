@@ -1,0 +1,9 @@
+plac
+zmq
+spacy
+pandas
+tqdm
+fastai
+pytorch-pretrained-bert
+sklearn
+pytest
