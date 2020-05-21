@@ -1,4 +1,4 @@
-# questo [![Build Status](https://travis-ci.com/aryavohra/questo-backend.svg?token=1kcjsLpsVZoxxBxXwjAC&branch=stable)](https://travis-ci.com/aryavohra/questo-backend)
+# questo
 <img src="./Questo Network Diagram.svg">
 
 ## design principles
