@@ -18,7 +18,6 @@ Please feel free to reach out if you'd like to discuss the project further!
 ## design principles
 - Only tabs.
 - Readable and self-documented code is a must. Use comments
-- Khush, if you use one-character variables... 🔪
 - ZMQ microservices are used for internal messaging, speeeeed baby
 - meaningful commit messages when possible 🤘🏼
 - no unilateral changes to API without conferring with iOS
