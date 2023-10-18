@@ -1,4 +1,4 @@
-# questo
+# Questo API
 <img src="./Questo Network Diagram.svg">
 
 ## A Note
